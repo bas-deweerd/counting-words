@@ -1,3 +1,3 @@
-package ordina.models.ApiResponses;
+package ordina.models.apiresponses;
 
 public record FrequencyResponse(int frequency){}

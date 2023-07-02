@@ -5,7 +5,7 @@ import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
 import ordina.WordFrequencyAnalyzer;
-import ordina.models.ApiResponses.FrequencyResponse;
+import ordina.models.apiresponses.FrequencyResponse;
 import org.jboss.resteasy.reactive.RestResponse;
 
 import static jakarta.ws.rs.core.MediaType.APPLICATION_JSON;
