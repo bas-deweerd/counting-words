@@ -1,11 +1,11 @@
-package ordina.resources;
+package ordina.api;
 
 import io.smallrye.common.constraint.NotNull;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
 import ordina.WordFrequencyAnalyzer;
-import ordina.resources.responses.FrequencyResponse;
+import ordina.models.ApiResponses.FrequencyResponse;
 import org.jboss.resteasy.reactive.RestResponse;
 
 import static jakarta.ws.rs.core.MediaType.APPLICATION_JSON;
