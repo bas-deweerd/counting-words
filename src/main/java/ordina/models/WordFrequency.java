@@ -1,6 +1,6 @@
-package ordina;
+package ordina.models;
 
 public interface WordFrequency {
-    String getWord();
-    int getFrequency();
+    String word();
+    int frequency();
 }

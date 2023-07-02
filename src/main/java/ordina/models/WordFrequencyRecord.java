@@ -1,5 +1,4 @@
 package ordina.models;
 
-
-public record WordFrequencyImpl(String word, int frequency) implements WordFrequency {
+public record WordFrequencyRecord(String word, int frequency) implements WordFrequency {
 }

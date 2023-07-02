@@ -1,4 +1,4 @@
-package ordina;
+package ordina.core;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.mockito.InjectMock;
@@ -12,7 +12,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.hamcrest.CoreMatchers.*;
 import static org.mockito.Mockito.when;
-
 
 @QuarkusTest
 class FrequencyCalculatorTest {

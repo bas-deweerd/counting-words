@@ -1,4 +1,4 @@
-package ordina;
+package ordina.core;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

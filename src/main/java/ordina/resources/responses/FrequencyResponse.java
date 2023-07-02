@@ -1,3 +1,3 @@
 package ordina.resources.responses;
 
-public record HighestFrequencyResponse(int frequency){}
+public record FrequencyResponse(int frequency){}
