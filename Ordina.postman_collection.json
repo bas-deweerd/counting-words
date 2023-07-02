@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "66acc5e4-3daf-4688-a523-a96b4788ff46",
+		"name": "Ordina",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24231287"
+	},
+	"item": [
+		{
+			"name": "highest-frequency",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "The sun shines over the lake"
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/highest-frequency",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"highest-frequency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "word frequency",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "The sun shines over the lake"
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/words/lake/frequency",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"words",
+						"lake",
+						"frequency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "frequency N",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "this is a new test test test"
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/words/frequency?limit=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"words",
+						"frequency"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API DOC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/swagger/ui",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"swagger",
+						"ui"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
